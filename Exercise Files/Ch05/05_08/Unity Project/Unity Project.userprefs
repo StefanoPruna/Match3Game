@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Level.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Grid.cs" Line="119" Column="21" />
+      <File FileName="Assets/Scripts/LevelTimer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level.cs" Line="65" Column="49" />
+      <File FileName="Assets/Scripts/MovablePiece.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ColorPiece.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GamePiece.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ClearablePiece.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/HUD.cs" Line="16" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

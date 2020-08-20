@@ -1,0 +1,46 @@
+public bool FillStep()
+{
+	bool movedPiece = false;
+
+	for (int y = yDim-2; y >= 0; y--)
+	{
+		for (int x = 0; x < xDim; x++)
+		{
+			GamePiece piece = pieces [x, y];
+
+			if (piece.IsMovable ())
+			{
+				GamePiece pieceBelow = pieces [x, y + 1];
+
+				if (pieceBelow.Type == PieceType.EMPTY)
+				{
+					piece.MovableComponent.Move (x, y + 1);
+					pieces [x, y + 1] = piece;
+					SpawnNewPiece (x, y, PieceType.EMPTY);
+					movedPiece = true;
+				}
+			}
+		}
+	}
+
+	return movedPiece;
+}
+
+--------------------------------------------------------------------------------
+
+for (int x = 0; x < xDim; x++)
+{
+	GamePiece pieceBelow = pieces [x, 0];
+
+	if (pieceBelow.Type == PieceType.EMPTY)
+	{
+		GameObject newPiece = (GameObject)Instantiate(piecePrefabDict[PieceType.NORMAL], GetWorldPosition(x, -1), Quaternion.identity);
+		newPiece.transform.parent = transform;
+
+		pieces [x, 0] = newPiece.GetComponent<GamePiece> ();
+		pieces [x, 0].Init (x, -1, this, PieceType.NORMAL);
+		pieces [x, 0].MovableComponent.Move (x, 0);
+		pieces [x, 0].ColorComponent.SetColor ((ColorPiece.ColorType)Random.Range (0, pieces [x, 0].ColorComponent.NumColors));
+		movedPiece = true;
+	}
+}
