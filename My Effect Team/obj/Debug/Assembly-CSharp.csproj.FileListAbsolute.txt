@@ -1,0 +1,2 @@
+C:\Users\makem\OneDrive\Documents\Github\Match3Game\My Effect Team\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\makem\OneDrive\Documents\Github\Match3Game\My Effect Team\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

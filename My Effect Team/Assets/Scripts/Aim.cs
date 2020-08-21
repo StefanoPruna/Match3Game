@@ -5,6 +5,10 @@ using UnityEngine;
 public class Aim : MonoBehaviour
 {
     [SerializeField]
+    public int weaponID;
+    
+
+    [SerializeField]
     // Always use _ in front of PRIVATE variable!!!
     private Transform _Powerup;
     // Start is called before the first frame update
@@ -19,5 +23,33 @@ public class Aim : MonoBehaviour
         Vector3 directionToFace = _Powerup.position - transform.position;
         Quaternion targetRotation = Quaternion.LookRotation(directionToFace);
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime);
-    }
+
+        //if (Input.GetKeyDown(KeyCode.G))
+        //{
+        //    weaponID = 1;
+        //}
+        //if (Input.GetKeyDown(KeyCode.K))
+        //{
+        //    weaponID = 2;
+        //}
+        //if (Input.GetKeyDown(KeyCode.M))
+        //{
+        //    weaponID = 3;
+        //}
+        switch (weaponID)
+        {
+            case 1:
+                Debug.Log("You have choose a Gun");
+                break;
+            case 2:
+                Debug.Log("You have choose a Knife");
+                break;
+            case 3:
+                Debug.Log("You have choose a Machine Gun");
+                break;
+            default:
+                Debug.Log("You have no weapon");
+                break;
+        }
+     }       
 }

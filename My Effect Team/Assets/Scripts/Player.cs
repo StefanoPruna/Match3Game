@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public int points;
+
     //public float testOne, testTwo, testThree, testFour, testFive;
     //float testAverage;
     
@@ -51,7 +53,7 @@ public class Player : MonoBehaviour
 
     
     void Update()
-    {        
+    {
         //if (testAverage > 90)
         //{
         //    Debug.Log("A " + testAverage);
@@ -72,29 +74,74 @@ public class Player : MonoBehaviour
         //    Debug.Log("F " + testAverage);
         //}
 
-        //if (difficultyCurrent == _difficultyEasy)
-        //{
-        //    Debug.Log("You have selected easy difficulty");
-            
-        //}
+        /*if (difficultyCurrent == _difficultyEasy)
+        {
+            Debug.Log("You have selected easy difficulty");
 
-        //else if (difficultyCurrent == _difficultyMedium)
-        //{
-        //    Debug.Log("You have selected medium difficulty");
-            
-        //}
+        }
 
-        //else if (difficultyCurrent == _difficultyHard)
-        //{
-        //    Debug.Log("You have selected hard difficulty");
-            
-        //}
+        else if (difficultyCurrent == _difficultyMedium)
+        {
+            Debug.Log("You have selected medium difficulty");
 
-        //else 
-        //{
-        //    Debug.Log("Invalid level selected");
-            
-        //}
+        }
+
+        else if (difficultyCurrent == _difficultyHard)
+        {
+            Debug.Log("You have selected hard difficulty");
+
+        }
+
+        else
+        {
+            Debug.Log("Invalid level selected");
+
+        }*/
+        // When there are more than two else if statement, I should use Switch statement instead
+        /*switch(difficultyCurrent)
+        {
+            case 0: //easy
+                Debug.Log("You have selected easy difficulty");
+                break;
+            case 1: //medium
+                Debug.Log("You have selected medium difficulty");
+                break;
+            case 2: //hard
+                Debug.Log("You have selected hard difficulty");
+                break;
+            default:
+                Debug.Log("Invalid level selected");
+                break;
+        }*/
+
+        /*if (Input.GetKeyDown(KeyCode.Q))
+        {
+            points = 50;
+        }
+        else if (Input.GetKeyDown(KeyCode.W))
+        {
+            points = 100;
+        }
+        else if (Input.GetKeyDown(KeyCode.Z))
+        {
+            points = 0;
+        }
+
+        switch (points)
+        {
+            case 50:
+                points = 50;
+                Debug.Log("Points are 50");
+                break;
+            case 100:
+                points = 100;
+                Debug.Log("points are 100");
+                break;
+            case 0: //or default
+                points = 0;
+                Debug.Log("You need 60 or 100 points to receive a message");
+                break;
+        }*/
 
         //if (Input.GetKeyDown(KeyCode.Space))
         //{
