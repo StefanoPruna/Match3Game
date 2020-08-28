@@ -31,6 +31,7 @@ public class ForLoops : MonoBehaviour
                 break;
             }
         }
+        
 
         /*countName = 10;
         for (int i = 10; i > 0; i--, countName --)
@@ -43,11 +44,24 @@ public class ForLoops : MonoBehaviour
         }   */          
         
         Debug.Log("Loop has finished");
+
+
+        //While loop method with function
+        //StartCoroutine(LoopRoutine());
     }
 
-    // Update is called once per frame
+    /* Update is called once per frame
     void Update()
     {
-        
+
     }
+
+    IEnumerator LoopRoutine()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1.0f);
+            Debug.Log("Spawning Enemy Every Second");
+        }
+    }*/
 }

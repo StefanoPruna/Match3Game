@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Crate.cs" />
     <Compile Include="Assets\Scripts\cubeMovement.cs" />
     <Compile Include="Assets\Scripts\ForLoops.cs" />
+    <Compile Include="Assets\Scripts\ForLoopsFunction.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\Main.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets\Scripts\QuizCalculator.cs" />
     <Compile Include="Assets\Scripts\SpawnCube.cs" />
     <Compile Include="Assets\Scripts\TipCalculator.cs" />
+    <Compile Include="Assets\Scripts\WhileLoops.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/makem/OneDrive/Documents/Github/Match3Game/My Effect Team/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
