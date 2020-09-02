@@ -526,6 +526,31 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4611380422463946523}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1212395927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212395926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b459d939ed439e744a90b0d9e7035371, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  names:
+  - VBlue
+  - Los
+  - Viv
+  - Alex
+  - Luke
+  ages: 2300000029000000190000001e00000020030000
+  carModels:
+  - Ferrari
+  - Lamborghini
+  - Renault
+  - Aprilia
+  - Millenium Falcon
 --- !u!114 &1212395937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -559,7 +584,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212395926}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76f6a2cc4d084fc488aa816ebda99b97, type: 3}
   m_Name: 
