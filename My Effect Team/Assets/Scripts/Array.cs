@@ -14,25 +14,27 @@ public class Array : MonoBehaviour
     public string[] names;
     public int[] ages;
     public string[] carModels;
-    
+    private int randomNames;
                 
     // Start is called before the first frame update
     void Start()
-    {        
-        Debug.Log(names[Random.Range(0, names.Length)]);
-                
-        //Debug.Log(items[1]);
-        //Debug.Log(ages[2]);             
+    {
+        //Debug.Log(names[Random.Range(0, names.Length)]);                  
     }
 
     // Update is called once per frame
     void Update()
-    {        
+    {
+
         /*if(Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log(names[4] + ages[4] + carModels[4]);
             //Debug.Log(ages[4]);
             //Debug.Log(carModels[4]);
-        }*/       
+        }*/
+
+        randomNames = Random.Range(0, names.Length);        
+        Debug.Log(names[randomNames] + " " + ages[randomNames] +" "+ carModels[randomNames]);
     }
+
 }
