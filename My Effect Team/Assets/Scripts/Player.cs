@@ -8,11 +8,11 @@ public class Player : MonoBehaviour
 
     //public float testOne, testTwo, testThree, testFour, testFive;
     //float testAverage;
-    
+
 
     //private int _difficultyEasy = 0; int _difficultyMedium = 1; int _difficultyHard = 2;
     //public int difficultyCurrent;
-    
+
 
     //We keep the var private for the Player only, but we show it in Unity/inspector
     //[SerializeField]
@@ -30,7 +30,8 @@ public class Player : MonoBehaviour
     //public bool hasAllKeys;
     //public int ammoCount;
 
-    
+    public GameObject[] cubes;
+
     void Start()
     {
         //testAverage = (testOne + testTwo + testThree + testFour + testFive) / 5;
@@ -152,6 +153,30 @@ public class Player : MonoBehaviour
         //        Debug.Log("YOU ARE AWESOME!");
         //        _hasAlreadyPrinted = true;
         //    }
-        //}        
+        //}      
+
+        /*if(Input.GetKeyDown(KeyCode.Space))
+        {
+            //foreach(var cube in cubes)
+            //{
+            //    cube.GetComponent<MeshRenderer>().material.color = Color.red;
+            //}
+            //Or I can use the For loop
+            for(int i = 0; i < cubes.Length; i++)
+            {
+                cubes[i].GetComponent<MeshRenderer>().material.color = Color.blue;
+            }
+        }*/
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            ChangeTheCube();
+        }        
+    }
+
+    public void ChangeTheCube()
+    {
+        cubes[2].GetComponent<MeshRenderer>().material.color = Color.green;
+        cubes[1].GetComponent<MeshRenderer>(). = ;
     }
 }
