@@ -854,7 +854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8138203606656617, guid: 8968926e69dae11489c55a76a457d1bf, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8138203606656617, guid: 8968926e69dae11489c55a76a457d1bf, type: 3}
       propertyPath: cubes.Array.data[0]
@@ -868,6 +868,10 @@ PrefabInstance:
       propertyPath: cubes.Array.data[2]
       value: 
       objectReference: {fileID: 1089981546}
+    - target: {fileID: 8138203606656617, guid: 8968926e69dae11489c55a76a457d1bf, type: 3}
+      propertyPath: cube
+      value: 
+      objectReference: {fileID: 1055674646}
     - target: {fileID: 8138203606656623, guid: 8968926e69dae11489c55a76a457d1bf, type: 3}
       propertyPath: m_Name
       value: Player

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public int points;
+    //public int points;
 
     //public float testOne, testTwo, testThree, testFour, testFive;
     //float testAverage;
@@ -30,7 +30,11 @@ public class Player : MonoBehaviour
     //public bool hasAllKeys;
     //public int ammoCount;
 
-    public GameObject[] cubes;
+        //For an array list
+    //public GameObject[] cubes;
+
+    //for one GameObject in particular
+    public GameObject cube;
 
     void Start()
     {
@@ -176,7 +180,9 @@ public class Player : MonoBehaviour
 
     public void ChangeTheCube()
     {
-        cubes[2].GetComponent<MeshRenderer>().material.color = Color.green;
-        cubes[1].GetComponent<MeshRenderer>(). = ;
+        //cubes[2].GetComponent<MeshRenderer>().material.color = Color.green;
+        //cubes[Random.Range(0, cubes.Length)].GetComponent<MeshRenderer>().material.color = Color.green;
+
+        cube.GetComponent<MeshRenderer>().material.color = Color.blue;
     }
 }
