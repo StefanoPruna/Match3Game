@@ -687,7 +687,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036066a9a05c19b4c8cb52884a6df827, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+--- !u!114 &1089981552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089981546}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4c89da5f36131044aed3473806e828b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1089981553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089981546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa52bdf41bfd41547b52084b57098740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  damage: 0
 --- !u!1 &1129118269 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5470073012914647416, guid: ac2f4fd7a95e0eb4b823ec1fc70ef6e5,
@@ -737,7 +762,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 036066a9a05c19b4c8cb52884a6df827, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
 --- !u!114 &1212395937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -854,7 +878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8138203606656617, guid: 8968926e69dae11489c55a76a457d1bf, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8138203606656617, guid: 8968926e69dae11489c55a76a457d1bf, type: 3}
       propertyPath: cubes.Array.data[0]

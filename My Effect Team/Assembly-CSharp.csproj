@@ -66,11 +66,13 @@
     <Compile Include="Assets\Scripts\Collectable.cs" />
     <Compile Include="Assets\Scripts\Crate.cs" />
     <Compile Include="Assets\Scripts\cubeMovement.cs" />
+    <Compile Include="Assets\Scripts\Damage.cs" />
     <Compile Include="Assets\Scripts\ForLoops.cs" />
     <Compile Include="Assets\Scripts\ForLoopsFunction.cs" />
     <Compile Include="Assets\Scripts\Functions.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\Main.cs" />
+    <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
