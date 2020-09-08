@@ -77,6 +77,8 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\QuizCalculator.cs" />
+    <Compile Include="Assets\Scripts\RandomPosition.cs" />
+    <Compile Include="Assets\Scripts\ReturnArray.cs" />
     <Compile Include="Assets\Scripts\SpawnCube.cs" />
     <Compile Include="Assets\Scripts\TipCalculator.cs" />
     <Compile Include="Assets\Scripts\WhileLoops.cs" />

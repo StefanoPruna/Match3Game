@@ -15,7 +15,7 @@ public class Damage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) && IsDestroyed() == false)
         {
             damage = Random.Range(1, 25);
             damageReceive();
@@ -32,5 +32,10 @@ public class Damage : MonoBehaviour
             //Destroy(this.gameObject);
             health = 0;            
         }        
+    }
+
+    public bool IsDestroyed()
+    {
+        return health <= 0;
     }
 }
