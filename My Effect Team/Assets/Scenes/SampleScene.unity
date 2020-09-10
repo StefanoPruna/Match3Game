@@ -788,12 +788,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ff1ec88c0e7954187a6fd8183ea4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  spawnPosition:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
 --- !u!114 &1089981552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -881,12 +881,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ff1ec88c0e7954187a6fd8183ea4a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  spawnPosition:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
 --- !u!114 &1212395937
 MonoBehaviour:
   m_ObjectHideFlags: 0

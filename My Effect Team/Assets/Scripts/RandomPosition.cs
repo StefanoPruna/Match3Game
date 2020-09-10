@@ -4,22 +4,29 @@ using UnityEngine;
 
 public class RandomPosition : MonoBehaviour
 {
-    public float[] position = new float[5];
+    public Vector3[] spawnPosition;
 
-    // Start is called before the first frame update
+    //I can use both method: with the private var _randomIndex, or with the transform.position
+    //int _randomIndex;
+
     void Start()
     {
+        //_randomIndex = ChangePosition();
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            ChangePosition();
+        }
     }
 
-    void GetRandPosition()
+    public void ChangePosition()
     {
-        
+        //return Random.Range(0, spawnPosition.Length);
+
+        transform.position = new Vector3(Random.Range(0, spawnPosition.Length), Random.Range(0, spawnPosition.Length), Random.Range(0, spawnPosition.Length));
     }
 }
