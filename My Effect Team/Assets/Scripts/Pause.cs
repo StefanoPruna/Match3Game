@@ -26,9 +26,9 @@ public class Pause : MonoBehaviour
         //    Time.timeScale = 1;
         //}
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.P))
         {
-            if (pause = false)
+            if (pause == false)
             {
                 Time.timeScale = 0;
                 pause = true;

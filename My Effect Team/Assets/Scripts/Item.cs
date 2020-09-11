@@ -2,23 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : MonoBehaviour
-{
-    public string itemName;
-    public string itemDescription;
-    public int itemAttack;
-    public Sprite itemIcon;
-
-    public Item()
+[System.Serializable]
+public class Item 
+{    
+    public string name;
+    public int id;
+    public string description;
+    public Sprite Icon;
+    
+    public Item(string name, int id, string description)
     {
+        this.name = name;
+        this.id = id;
+        this.description = description;
     }
-
-    //public SpriteRenderer myRenderer { get; private set; }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-      //  myRenderer = GetComponent<SpriteRenderer>();
-
-    }   
 }

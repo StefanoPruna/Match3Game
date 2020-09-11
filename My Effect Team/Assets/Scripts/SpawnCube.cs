@@ -16,7 +16,7 @@ public class SpawnCube : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.I))
         {
             // with identity, there is not rotation 
             //Instantiate(cubePrefab, Vector3.zero, Quaternion.identity);
