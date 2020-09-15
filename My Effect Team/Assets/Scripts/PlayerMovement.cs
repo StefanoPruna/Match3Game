@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WeaponStats
 {
-    public string name;
+    /*public string name;
     public float fireRate;
     public int ammoCount;
 
@@ -14,7 +14,7 @@ public class WeaponStats
         this.name = name;
         this.fireRate = fireRate;
         this.ammoCount = ammoCount;
-    }
+    }*/
 }
 
 public class PlayerMovement : MonoBehaviour
@@ -24,8 +24,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private float _speed;
 
-    private WeaponStats _blasters;
-    private WeaponStats _rockets;
+    //private WeaponStats _blasters;
+    //private WeaponStats _rockets;
 
     // Start is called before the first frame update
     void Start()
@@ -39,10 +39,10 @@ public class PlayerMovement : MonoBehaviour
         _rockets.name = "Rockets";
         _rockets.fireRate = 0.45f;
         _rockets.ammoCount = 20;
-            */
+            
         _blasters = new WeaponStats("Blasters", 0.25f, 50);
         _rockets = new WeaponStats("Rockets", 0.45f, 20);
-
+        */
     }
 
     // Update is called once per frame

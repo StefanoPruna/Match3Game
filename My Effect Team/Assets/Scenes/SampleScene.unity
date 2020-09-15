@@ -636,6 +636,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Powerup
       objectReference: {fileID: 0}
+    - target: {fileID: 8309220983325796574, guid: 36ded423789375a4caf4e9eaf537fc6e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8309220983325796579, guid: 36ded423789375a4caf4e9eaf537fc6e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -850,7 +855,7 @@ PrefabInstance:
     - target: {fileID: 5470073012914647416, guid: ac2f4fd7a95e0eb4b823ec1fc70ef6e5,
         type: 3}
       propertyPath: m_Name
-      value: Cube n.2
+      value: Customer Database
       objectReference: {fileID: 0}
     - target: {fileID: 5470073012914647416, guid: ac2f4fd7a95e0eb4b823ec1fc70ef6e5,
         type: 3}
@@ -920,6 +925,34 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1055674645}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1055674647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055674646}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1e0e4cc51c50b4b9dc8464d755436f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Customer:
+  - name: 
+    familyName: 
+    age: 0
+    gender: 
+    occupation: 
+  - name: 
+    familyName: 
+    age: 0
+    gender: 
+    occupation: 
+  - name: 
+    familyName: 
+    age: 0
+    gender: 
+    occupation: 
 --- !u!1001 &1063555163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1098,7 +1131,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089981546}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e7ff1ec88c0e7954187a6fd8183ea4a1, type: 3}
   m_Name: 
@@ -1159,19 +1192,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b459d939ed439e744a90b0d9e7035371, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myItems:
-  - itemId: 1
-    itemName: Bread
-    description: Small healing effect
-  - itemId: 2
-    itemName: Potion
-    description: Moderate healing effect
-  - itemId: 3
-    itemName: Sword
-    description: Attack +1
-  - itemId: 4
-    itemName: Greatsword
-    description: Attack +3
+  names:
+  - Renault
+  - Fiat
+  - Jeep
+  ages: 050000000400000006000000
+  carModels:
+  - Speed
+  - 500
+  - Jeep
 --- !u!114 &1212395928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1492,7 +1521,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984440970}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 30c4c652d72966646b68f6c0aa744226, type: 3}
   m_Name: 
@@ -1630,7 +1659,7 @@ PrefabInstance:
       objectReference: {fileID: 833713876}
     - target: {fileID: 535838761, guid: 8968926e69dae11489c55a76a457d1bf, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 535838761, guid: 8968926e69dae11489c55a76a457d1bf, type: 3}
       propertyPath: weaponID
@@ -1727,11 +1756,156 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8138203606656620, guid: 8968926e69dae11489c55a76a457d1bf, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8138203606656623, guid: 8968926e69dae11489c55a76a457d1bf, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].name.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].ages.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].names.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].carModels.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[1].carModels.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[2].carModels.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: names.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: ages.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: carModels.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].name
+      value: Renault
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].ages
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].carModels
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[1].name
+      value: Fiat
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[1].ages
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[1].carModels
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[2].name
+      value: Jeep
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[2].ages
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[2].carModels
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].names.Array.data[0]
+      value: Renault
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].names.Array.data[1]
+      value: Fiat
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].names.Array.data[2]
+      value: Jeep
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].ages.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].ages.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].ages.Array.data[2]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].carModels.Array.data[0]
+      value: Speed
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].carModels.Array.data[1]
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: DifferentModels.Array.data[0].carModels.Array.data[2]
+      value: Grand Cheeroke
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788324417798864015, guid: 8968926e69dae11489c55a76a457d1bf,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1212395933, guid: 8968926e69dae11489c55a76a457d1bf, type: 3}

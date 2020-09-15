@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[System.Serializable]
-public class Items
-{
-    public int itemId;
-    public string itemName;
-    public string description;
-}
+//[System.Serializable]
+// public class Items
+// {
+//     // public int itemId;
+//     // public string itemName;
+//     // public string description;
+// }
 
 public class Array : MonoBehaviour
 {
@@ -20,11 +20,11 @@ public class Array : MonoBehaviour
 
     //with Unity, we can specify the size through the inspector and also be able to modify it, 
     //but we have to save everytime
-    /*public string[] names;
+    public string[] names;
     public int[] ages;
     public string[] carModels;
     private int randomNames;
-    */
+    
 
     /*public int[] itemId;
     public string[] itemName;
@@ -32,7 +32,7 @@ public class Array : MonoBehaviour
     private int randomItem;
     */
 
-    public Items[] myItems;
+    //public Items[] myItems;
 
     // Start is called before the first frame update
     void Start()
@@ -44,18 +44,18 @@ public class Array : MonoBehaviour
             Debug.Log(item.itemId + "." + item.itemName + "= " + item.description);
         }*/
             //Or I can use the For loop
-        for(int i = 0; i < myItems.Length; i++)
-        {
-            Debug.Log(myItems[i].itemId + "." + myItems[i].itemName + "= " + myItems[i].description);
-            if(myItems.Length == 7)
-            {
-                Debug.Log("You have it!");
-            }
-            else
-            {
-                Debug.Log("You don't have it!");
-            }
-        }
+        // for(int i = 0; i < myItems.Length; i++)
+        // {
+        //     Debug.Log(myItems[i].itemId + "." + myItems[i].itemName + "= " + myItems[i].description);
+        //     if(myItems.Length == 7)
+        //     {
+        //         Debug.Log("You have it!");
+        //     }
+        //     else
+        //     {
+        //         Debug.Log("You don't have it!");
+        //     }
+        // }
     }
 
     // Update is called once per frame
@@ -69,8 +69,8 @@ public class Array : MonoBehaviour
             Debug.Log(carModels[4]);
         }*/
 
-        /*randomNames = Random.Range(0, names.Length);
-        Debug.Log(names[randomNames] + " " + ages[randomNames] + " " + carModels[randomNames]);*/
+        randomNames = Random.Range(0, names.Length);
+        Debug.Log(names[randomNames] + " " + ages[randomNames] + " " + carModels[randomNames]);
 
         //if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -92,11 +92,11 @@ public class Array : MonoBehaviour
             //    Debug.Log(item);
             //}
 
-            if(Input.GetKeyDown(KeyCode.Space))
+            /*if(Input.GetKeyDown(KeyCode.Space))
             {
                 int randomId = Random.Range(0, myItems.Length);
                 Debug.Log(myItems[randomId].itemId + "." + myItems[randomId].itemName + "= " + myItems[randomId].description);
-            }
+            }*/
         }
     }
 
