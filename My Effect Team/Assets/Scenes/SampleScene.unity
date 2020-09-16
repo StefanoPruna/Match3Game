@@ -260,7 +260,7 @@ PrefabInstance:
     - target: {fileID: 5470073012914647416, guid: ac2f4fd7a95e0eb4b823ec1fc70ef6e5,
         type: 3}
       propertyPath: m_Name
-      value: Cube
+      value: Wizard
       objectReference: {fileID: 0}
     - target: {fileID: 5470073012914647416, guid: ac2f4fd7a95e0eb4b823ec1fc70ef6e5,
         type: 3}
@@ -270,17 +270,17 @@ PrefabInstance:
     - target: {fileID: 5470073012914647684, guid: ac2f4fd7a95e0eb4b823ec1fc70ef6e5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.879
+      value: 4.54
       objectReference: {fileID: 0}
     - target: {fileID: 5470073012914647684, guid: ac2f4fd7a95e0eb4b823ec1fc70ef6e5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 5470073012914647684, guid: ac2f4fd7a95e0eb4b823ec1fc70ef6e5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 5470073012914647684, guid: ac2f4fd7a95e0eb4b823ec1fc70ef6e5,
         type: 3}
@@ -1174,6 +1174,29 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 176986401}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1129118270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129118269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aed78cc8e95eb5f4384d8da7d239a50e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spells:
+  - name: Fire Ball
+    levelRequired: 1
+    itemIdRequired: 27
+    expGained: 35
+  - name: Ice Blast
+    levelRequired: 3
+    itemIdRequired: 29
+    expGained: 55
+  level: 3
+  exp: 0
 --- !u!1 &1212395926 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8138203606656623, guid: 8968926e69dae11489c55a76a457d1bf,
