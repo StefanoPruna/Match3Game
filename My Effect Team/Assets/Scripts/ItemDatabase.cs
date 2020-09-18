@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class ItemDatabase : MonoBehaviour
 {
-   
+    public Itemslist goldCoin = new Itemslist();
+    public Weapon sword = new Weapon();
+    public Consumable bread = new Consumable();
+       
     //public Item sword; //I can see this item in the inspector, because in the 
                         //Item script I've added [System.Serializable]
 
