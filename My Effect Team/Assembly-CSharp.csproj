@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\ForLoops.cs" />
     <Compile Include="Assets\Scripts\ForLoopsFunction.cs" />
     <Compile Include="Assets\Scripts\Functions.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GetFromDifferentArray.cs" />
     <Compile Include="Assets\Scripts\HeadQuarterBank.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
