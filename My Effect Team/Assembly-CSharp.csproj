@@ -103,6 +103,8 @@
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\SpawnCube.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
+    <Compile Include="Assets\Scripts\SpawnObjects.cs" />
+    <Compile Include="Assets\Scripts\SpawnObjectsChallange.cs" />
     <Compile Include="Assets\Scripts\Spell.cs" />
     <Compile Include="Assets\Scripts\TipCalculator.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
