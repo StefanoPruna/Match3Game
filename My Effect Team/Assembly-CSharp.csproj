@@ -76,8 +76,10 @@
     <Compile Include="Assets\Scripts\CustomerDatabase.cs" />
     <Compile Include="Assets\Scripts\Customers.cs" />
     <Compile Include="Assets\Scripts\Damage.cs" />
+    <Compile Include="Assets\Scripts\DBwithDictionary.cs" />
     <Compile Include="Assets\Scripts\dog.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\ForLoops.cs" />
     <Compile Include="Assets\Scripts\ForLoopsFunction.cs" />
     <Compile Include="Assets\Scripts\Functions.cs" />
@@ -86,6 +88,7 @@
     <Compile Include="Assets\Scripts\HeadQuarterBank.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\ItemDatabase.cs" />
+    <Compile Include="Assets\Scripts\ItemDB.cs" />
     <Compile Include="Assets\Scripts\Itemslist.cs" />
     <Compile Include="Assets\Scripts\List.cs" />
     <Compile Include="Assets\Scripts\Main.cs" />
@@ -95,12 +98,14 @@
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\Pet.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerItems.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PlayerType.cs" />
     <Compile Include="Assets\Scripts\QuizCalculator.cs" />
     <Compile Include="Assets\Scripts\RandomPosition.cs" />
     <Compile Include="Assets\Scripts\ReturnArray.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
+    <Compile Include="Assets\Scripts\SelectDifficulty.cs" />
     <Compile Include="Assets\Scripts\SpawnCube.cs" />
     <Compile Include="Assets\Scripts\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\SpawnObjects.cs" />
