@@ -38,7 +38,7 @@ public class Item //REFERENCE TYPE ARE STORED AS HEAP
 
     public enum ItemType
     {
-        None,
+        Spell,
         Weapon,
         Consumable
     }
