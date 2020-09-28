@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class AbstractChallenge : MonoBehaviour
+public abstract class AbstractChallenge : MonoBehaviour //ABSTRACT CAN FORCE AN INHERITENCE BETWEEN CLASSES
 {
-    public string companyName;
-public string employeeName;
-public int salary;
+    public static string company = "GameDevHQ"; 
+    public string employeeName;
+    
+    public abstract void CalculateMonthlySalary();
+
+    public abstract void PartTSalary();
 }
 
 

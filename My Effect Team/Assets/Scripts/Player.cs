@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour //MONOBEHAVIOUR ALLOWS THE ABILITY TO ATTACH SCRIPTS TO GAMEOBJECTS
 {
     //public int points;
 
