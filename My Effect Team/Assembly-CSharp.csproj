@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Bank.cs" />
     <Compile Include="Assets\Scripts\BankBehavior.cs" />
     <Compile Include="Assets\Scripts\ButtonEvent.cs" />
+    <Compile Include="Assets\Scripts\CallBackSystem.cs" />
     <Compile Include="Assets\Scripts\Cat.cs" />
     <Compile Include="Assets\Scripts\ChangeColor.cs" />
     <Compile Include="Assets\Scripts\ChangePositionButton.cs" />
@@ -102,6 +103,10 @@
     <Compile Include="Assets\Scripts\ItemDatabase.cs" />
     <Compile Include="Assets\Scripts\ItemDB.cs" />
     <Compile Include="Assets\Scripts\Itemslist.cs" />
+    <Compile Include="Assets\Scripts\LambdaDelegate.cs" />
+    <Compile Include="Assets\Scripts\LinqChallengeOne.cs" />
+    <Compile Include="Assets\Scripts\LinqChallengeTwo.cs" />
+    <Compile Include="Assets\Scripts\LinqExample.cs" />
     <Compile Include="Assets\Scripts\List.cs" />
     <Compile Include="Assets\Scripts\Listeners.cs" />
     <Compile Include="Assets\Scripts\Main.cs" />
@@ -113,6 +118,7 @@
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\Pet.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PlayerActions.cs" />
     <Compile Include="Assets\Scripts\PlayerDictionary.cs" />
     <Compile Include="Assets\Scripts\PlayerInterface.cs" />
     <Compile Include="Assets\Scripts\PlayerItems.cs" />
@@ -121,6 +127,7 @@
     <Compile Include="Assets\Scripts\QuizCalculator.cs" />
     <Compile Include="Assets\Scripts\RandomPosition.cs" />
     <Compile Include="Assets\Scripts\ReturnArray.cs" />
+    <Compile Include="Assets\Scripts\ReturnDelegate.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\SelectDifficulty.cs" />
     <Compile Include="Assets\Scripts\Shoot.cs" />

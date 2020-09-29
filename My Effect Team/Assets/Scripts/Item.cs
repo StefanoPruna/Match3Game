@@ -23,6 +23,7 @@ public class Item //REFERENCE TYPE ARE STORED AS HEAP
     public string name;
     public int id;
     public string description;
+    public int buff;
     public Sprite Icon;
     
     public Item(string name, int id, string description)
